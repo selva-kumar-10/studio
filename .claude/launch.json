@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "studio-next",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "studio-prod",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "start", "--", "-p", "4010"],
+      "port": 4010
+    },
+    {
+      "name": "design-cmp",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "4020", "--directory", "C:\\Users\\SOOQ ELASER\\AppData\\Local\\Temp\\claude\\dc3629d1a30e76dd\\82c1a5dd-62be-43dc-918f-2dff039a5ddd\\scratchpad\\cmp"],
+      "port": 4020
+    }
+  ]
+}
